@@ -1,0 +1,271 @@
+  @import url('https:fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  * {
+      font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+      background-color: black;
+  }
+
+  .bgBlack {
+      background-color: black;
+  }
+
+  .navLinks,
+  .navLinks:hover {
+      color: rgba(255, 255, 255, 0.60);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+
+  .navBtn,
+  .navBtn:hover {
+      background: linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%);
+      background-repeat: no-repeat;
+      color: #FFF;
+      font-size: 16px;
+      border-radius: 16px;
+  }
+
+  .heros_container {
+      margin-top: 100px;
+      background-image: url("../images/square\ Vector.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .heros_subHeading {
+      color: #FFF;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px;
+      text-transform: capitalize;
+  }
+
+  .heros_Heading {
+      color: #FFF;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px;
+      text-transform: capitalize;
+  }
+
+  .heros_p {
+      color: rgba(255, 255, 255, 0.60);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+  }
+
+  .heros_btn1 {
+      border-radius: 16px;
+      border: 1px solid black;
+      background: linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%);
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      background-repeat: no-repeat;
+      width: 138px;
+      height: 52px;
+  }
+
+  .heros_btn2 {
+      border-radius: 16px;
+      border: 1px solid #FFF;
+      color: #FFF;
+      background-color: transparent;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      width: 138px;
+      height: 52px;
+  }
+
+  .whyus_heading {
+      color: #FFF;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 60px;
+      text-transform: capitalize;
+      width: 482px;
+  }
+
+  .whyus_subHeading {
+      color: rgba(255, 255, 255, 0.60);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      width: 563px;
+  }
+
+  .home_card {
+      background-color: black;
+
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.50);
+      background: rgba(28, 28, 28, 0.30);
+      backdrop-filter: blur(22px);
+  }
+
+  .cardHeading {
+      color: #FFF;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      /* margin-right: 35px; */
+  }
+
+  .cardText {
+      color: rgba(255, 255, 255, 0.60);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      width: 303px;
+      /* margin-left: 55px; */
+  }
+
+  .x1_heading {
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 60px;
+      /* 150% */
+      text-transform: capitalize;
+  }
+
+  .x2_heading {
+      color: rgba(255, 255, 255, 0.60);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      /* 200% */
+  }
+
+  .x2_container {
+    background: linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Extra large devices (large desktops, 1200px) */
+  @media (max-width: 1200px) {}
+
+  /* Large devices (desktops, 992px) */
+  @media (max-width: 992px) {
+      .heros_img {
+          width: 70% !important;
+          margin-top: 100px !important;
+      }
+
+      .heros_container {
+          margin-top: 100px;
+          /* remove background img form mobile */
+          background-image: url("");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+  }
+
+
+  /* Medium devices (tablets, 768px) */
+  @media (max-width: 768px) {
+      .heros_subHeading {
+          color: #FFF;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 40px;
+          text-transform: capitalize;
+      }
+
+      .heros_Heading {
+          color: #FFF;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 50px;
+          text-transform: capitalize;
+      }
+
+      .heros_p {
+          color: rgba(255, 255, 255, 0.60);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 32px;
+      }
+
+      .heros_container {
+          margin-top: 50px;
+      }
+
+      .heros_btn1 {
+          width: 120px;
+          height: 40px;
+      }
+
+      .heros_btn2 {
+          width: 120px;
+          height: 40px;
+      }
+
+      .whyus_heading {
+          width: 100%;
+          font-size: 30px;
+      }
+
+      .whyus_subHeading {
+          width: 100%;
+          padding: 0px 15px;
+          font-size: 14px;
+      }
+
+      .x1_heading {
+          font-size: 30px;
+      }
+  }
+
+  /* Small devices (landscape phones, 576px) */
+  @media (max-width: 576px) {}
