@@ -215,13 +215,14 @@
 
   .group_backgroundImgA {
       background: url(../images/group_A_img.svg), lightgray 50% / cover no-repeat;
+      margin-left: auto;
   }
 
   .group_background {
       width: 433px;
       height: 612px;
       border-radius: 44px;
-    border: #2745EA 2px solid;
+      border: #2745EA 2px solid;
   }
 
   .group_download {
@@ -235,18 +236,20 @@
 
   .group_backgroundImgB {
       background: url(../images/group_B_img.svg), lightgray 50% / cover no-repeat;
+      margin-right: auto;
   }
 
   .group_backgroundImgC {
       background: url(../images/group_c_img.svg), lightgray 50% / cover no-repeat;
+      margin-left: auto;
   }
 
   .group_backgroundImgD {
       background: url(../images/group_d_img.svg), lightgray 50% / cover no-repeat;
   }
 
-  .homeFaq_container{
-    margin-top: 100px;
+  .homeFaq_container {
+      margin-top: 100px;
   }
 
   .homeFaq_heading {
@@ -266,22 +269,84 @@
   }
 
   .homeFaq_btn {
-    border-radius: 16px;
-    border: 1px solid black;
-    background: linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%);
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    background-repeat: no-repeat;
-    width: 138px;
-    height: 52px;
-}
+      border-radius: 16px;
+      border: 1px solid black;
+      background: linear-gradient(90deg, #2745EA 2.94%, #CF7BF4 100%);
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      background-repeat: no-repeat;
+      width: 138px;
+      height: 52px;
+  }
 
-.homeFaq_img1{
-    width: 80%;
-}
+  .homeFaq_img1 {
+      width: 80%;
+  }
+
+  .homeAcc_p {
+      color: #FFF;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+  }
+
+  .home_footer {
+      height: 867px;
+      background-image: url(../images/HomeFooterImg.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 150px;
+  }
+
+  .footer_heading {
+      color: #C8C8C8;
+      text-align: center;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 167.75%;
+      margin-top: 50px;
+  }
+
+  .home_footer_input,
+  home_footer_input:focus {
+      background: transparent !important;
+      background-color: #7B7B7B !important;
+  }
+
+  .home_form_container {
+      margin-top: 150px;
+  }
+
+  .homeForm_Quote {
+      width: 501px;
+      color: #D7D7D7;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 43.5px;
+  }
+
+  .homeFooter_p {
+      color: rgba(255, 255, 255, 0.80);
+      text-align: center;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 146.7%;
+      width: 944px;
+      margin-top: 150px;
+  }
+
+
+
+
+
 
 
 
@@ -321,6 +386,28 @@
           background-repeat: no-repeat;
           background-size: cover;
       }
+
+      .group_download {
+          margin: auto;
+      }
+      .group_backgroundImgA {
+        background: url(../images/group_A_img.svg), lightgray 50% / cover no-repeat;
+        margin: auto;
+    }
+      .group_backgroundImgB {
+        background: url(../images/group_B_img.svg), lightgray 50% / cover no-repeat;
+        margin: auto;
+    }
+  
+    .group_backgroundImgC {
+        background: url(../images/group_c_img.svg), lightgray 50% / cover no-repeat;
+        margin: auto;
+    }
+  
+    .group_backgroundImgD {
+        background: url(../images/group_d_img.svg), lightgray 50% / cover no-repeat;
+        margin: auto;
+    }
   }
 
 
@@ -391,14 +478,23 @@
 
       .group_backgroundImgB {
           margin: auto;
-      } 
+      }
+
       .homeFaq_btn {
-        width: 120px;
-        height: 40px;
-    }
-    .homeFaq_img1{
+          width: 120px;
+          height: 40px;
+      }
+
+      .homeFaq_img1 {
+          width: 100%;
+      }
+
+      .homeAcc_p {
+          font-size: 14px;
+      }
+      .homeFooter_p{
         width: 100%;
-    }
+      }
   }
 
   /* Small devices (landscape phones, 576px) */
@@ -429,5 +525,39 @@
 
       .downArrow {
           width: 5%;
+      }
+
+      .homeAcc_num {
+          display: none;
+      }
+
+      .homeAcc_arrow {
+          width: 70%;
+      }
+
+      .home_footer {
+          margin-top: 50px;
+      }
+
+      .homeForm_Quote {
+          width: 100%;
+          color: #D7D7D7;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 43.5px;
+          text-align: center;
+          margin-top: 50px !important;
+      }
+
+      .home_form_container {
+          margin-top: 50px;
+      }
+
+      .footer_heading {
+          font-size: 20px;
+      }
+      .homeFooter_p{
+        margin-top: 50px;
       }
   }
