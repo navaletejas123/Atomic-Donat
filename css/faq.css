@@ -1,0 +1,115 @@
+.faq_heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.faq_boxP {
+    width: 515px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq_P {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq_subHeading {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.faq_box_text {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-align: center; */
+}
+
+
+.faq_downloadBtn {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px) */
+@media (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px) */
+@media (max-width: 992px) {}
+
+/* Medium devices (tablets, 768px) */
+@media (max-width: 768px) {
+    .faq_heading {
+        font-size: 25px;
+    }
+
+    .faq_boxP {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .faq_P {
+        font-size: 14px;
+    }
+
+    .faq_subHeading {
+        font-size: 18px;
+    }
+}
+
+/* Small devices (landscape phones, 576px) */
+@media (max-width: 576px) {}
