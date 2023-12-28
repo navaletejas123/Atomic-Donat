@@ -54,7 +54,10 @@
 
 
 
-
+.ball_img{
+    width: 3.4%;
+    margin-top: 140px;
+}
 
 
 
@@ -89,7 +92,11 @@
 @media (max-width: 1200px) {}
 
 /* Large devices (desktops, 992px) */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .ball_img_container{
+        display: none;
+    }
+}
 
 /* Medium devices (tablets, 768px) */
 @media (max-width: 768px) {

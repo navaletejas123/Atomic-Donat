@@ -9,6 +9,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 
@@ -24,25 +25,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-lg-0 mt-4 mt-lg-0">
                     <li class="nav-item me-md-4 ms-3">
-                        <a class="nav-link navLinks" aria-current="page" href="#">Fremworks</a>
+                        <a class="nav-link navLinks" aria-current="page" href="#fremwork">Fremworks</a>
                     </li>
                     <li class="nav-item me-md-4 ms-3">
-                        <a class="nav-link navLinks" aria-current="page" href="#">Benifits</a>
+                        <a class="nav-link navLinks" aria-current="page" href="#card">Benifits</a>
                     </li>
                     <li class="nav-item me-md-4 ms-3">
-                        <a class="nav-link navLinks" aria-current="page" href="#">Case-Study</a>
+                        <a class="nav-link navLinks" aria-current="page" href="#home">Case-Study</a>
                     </li>
                     <li class="nav-item me-md-4 ms-3">
-                        <a class="nav-link navLinks" aria-current="page" href="#">Our Best Practice</a>
+                        <a class="nav-link navLinks" aria-current="page" href="#groups">Our Best Practice</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <button class="btn btn-lg navBtn mt-3 mt-lg-0 ms-3 ms-lg-0">Contact Us</button>
-                </form>
+                <div class="d-flex" role="search">
+                    <a href="#footer" class="text-decoration-none"><button class="btn btn-lg navBtn mt-3 mt-lg-0 ms-3 ms-lg-0">Contact Us</button></a>
+                </div>
             </div>
         </div>
     </nav>
-    <div class="container-fluid heros_container">
+    <div class="container-fluid heros_container" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -56,8 +57,8 @@
                         partner
                         in security.</p>
                     <div class="mt-lg-5">
-                        <button class=" heros_btn1 me-3">Join Now</button>
-                        <button class=" heros_btn2 ">Learn More</button>
+                        <a href="#footer" class="text-decoration-none"><button class=" heros_btn1 me-3">Join Now</button></a>
+                        <a href="#learnMore" class="text-decoration-none"><button class=" heros_btn2 ">Learn More</button></a>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -71,7 +72,7 @@
             <div class="col-lg-6">
                 <p class="whyus_heading text-center text-lg-start">Why do companies need FSVI?</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6"  id="card">
                 <p class="whyus_subHeading d-flex align-items-center justify-content-end">
                     We are very experienced and professional to make customers
                     feel at home getting services from us. We have been established since 1894 which is where we have
@@ -125,7 +126,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5" id="fremwork">
         <div class="row">
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div>
@@ -136,7 +137,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/x1img.svg" class="w-100 img-fluid d-block m-auto" alt="">
+                <img src="images/x1img.svg" class="w-100 img-fluid d-block m-auto" alt="" >
             </div>
         </div>
     </div>
@@ -181,7 +182,7 @@
 
     <!-- groups -->
     <!-- A -->
-    <div class="container group_container">
+    <div class="container group_container" id="groups">
         <div class="row">
             <div class="col-lg-6">
                 <img src="images/A.svg" class="firstBigLetter" alt="">
@@ -283,7 +284,7 @@
                     Certifying successful VAPT completion, findings versus closure, vulnerabilities versus action taken,
                     and an executive summary of the assessment.</p>
                 <p class="group_download mt-5 py-2 me-lg-auto  text-center rounded border">Download Our Sample Final Re
-                    Validation Certificate Report<img src="images/downArrow.svg" class="ms-2 downArrow" alt=""></p>
+                    Validation Certificate<img src="images/downArrow.svg" class="ms-2 downArrow" alt=""></p>
             </div>
         </div>
     </div>
@@ -296,7 +297,7 @@
                 <p class="homeFaq_heading mt-lg-5">Frequently asked question</p>
                 <p class="homeFaq_SubHeading">Looking for an answer ?</p>
                 <div>
-                    <button class="homeFaq_btn">Know More</button>
+                    <a href="#footer" class="text-decoration-none"><button class="homeFaq_btn">Know More</button></a>
                 </div>
                 <img src="images/homeFaq_img1.svg" class="homeFaq_img1 mt-5" alt="">
             </div>
@@ -308,7 +309,7 @@
 
     <!--Home Acco -->
 
-    <div class="container mt-5">
+    <div class="container mt-5" id="learnMore">
         <a href="faq_one.html" class="cp text-decoration-none">
             <div class="row border border-1 border-white d-flex justify-content-center align-items-center mt-5">
                 <div class="col-1 text-center homeAcc_num">
@@ -389,7 +390,7 @@
                 <div class="col-2 col-sm-1"><img src="images/RightArrow.svg" class="homeAcc_arrow" alt=""></div>
             </div>
         </a>
-        <a href="faq_eigtht.html" class="cp text-decoration-none">
+        <a href="faq_eight.html" class="cp text-decoration-none">
             <div class="row border border-1 border-white d-flex justify-content-center align-items-center mt-5">
                 <div class="col-1 text-center homeAcc_num">
                     <img src="images/eight.svg" class="" alt="">
@@ -411,7 +412,7 @@
                         THE CYBERSECURITY SECTOR </span></p>
             </div>
         </div>
-        <div class="row home_form_container d-flex justify-content-center align-items-center">
+        <div class="row home_form_container d-flex justify-content-center align-items-center" id="footer">
             <div class="col-lg-6">
                 <div class="mb-3">
                     <div class="row">
@@ -475,6 +476,9 @@
     </footer>
 
     <script src="lib/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/LieutenantPeacock/SmoothScroll@1.2.0/src/smoothscroll.min.js" integrity="sha384-UdJHYJK9eDBy7vML0TvJGlCpvrJhCuOPGTc7tHbA+jHEgCgjWpPbmMvmd/2bzdXU" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

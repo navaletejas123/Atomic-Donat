@@ -1,19 +1,30 @@
   @import url('https:fonts.googleapis.com/css2?family=Poppins&display=swap');
 
   * {
-      font-family: 'Poppins', sans-serif ;
+      font-family: 'Poppins', sans-serif !important;
   }
 
   body {
       background-color: black;
   }
 
+  html {
+      scroll-behavior: smooth;
+  }
+
+  nav {
+      position: sticky !important;
+      top: 0 !important;
+      background-color: black !important;
+      z-index: 1;
+  }
+
   .bgBlack {
       background-color: black;
   }
 
-  .cp{
-    cursor: pointer !important;
+  .cp {
+      cursor: pointer !important;
   }
 
   .navLinks,
@@ -394,24 +405,26 @@
       .group_download {
           margin: auto;
       }
+
       .group_backgroundImgA {
-        background: url(../images/group_A_img.svg), lightgray 50% / cover no-repeat;
-        margin: auto;
-    }
+          background: url(../images/group_A_img.svg), lightgray 50% / cover no-repeat;
+          margin: auto;
+      }
+
       .group_backgroundImgB {
-        background: url(../images/group_B_img.svg), lightgray 50% / cover no-repeat;
-        margin: auto;
-    }
-  
-    .group_backgroundImgC {
-        background: url(../images/group_c_img.svg), lightgray 50% / cover no-repeat;
-        margin: auto;
-    }
-  
-    .group_backgroundImgD {
-        background: url(../images/group_d_img.svg), lightgray 50% / cover no-repeat;
-        margin: auto;
-    }
+          background: url(../images/group_B_img.svg), lightgray 50% / cover no-repeat;
+          margin: auto;
+      }
+
+      .group_backgroundImgC {
+          background: url(../images/group_c_img.svg), lightgray 50% / cover no-repeat;
+          margin: auto;
+      }
+
+      .group_backgroundImgD {
+          background: url(../images/group_d_img.svg), lightgray 50% / cover no-repeat;
+          margin: auto;
+      }
   }
 
 
@@ -496,8 +509,9 @@
       .homeAcc_p {
           font-size: 14px;
       }
-      .homeFooter_p{
-        width: 100%;
+
+      .homeFooter_p {
+          width: 100%;
       }
   }
 
@@ -561,7 +575,8 @@
       .footer_heading {
           font-size: 20px;
       }
-      .homeFooter_p{
-        margin-top: 50px;
+
+      .homeFooter_p {
+          margin-top: 50px;
       }
   }
